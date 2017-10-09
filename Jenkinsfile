@@ -15,7 +15,7 @@ pipeline {
             
           },
           "Parallel Test": {
-            timeout(time: 11) {
+            timeout(time: 6) {
               sleep 12
             }
             
