@@ -17,8 +17,10 @@ pipeline {
           "Parallel Test": {
             timeout(time: 6) {
               sleep 12
+              echo 'After Sleep'
             }
             
+            echo 'FIN'
             
           }
         )
