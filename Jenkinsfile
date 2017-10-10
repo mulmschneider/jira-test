@@ -18,6 +18,8 @@ pipeline {
             timeout(time: 6) {
               sleep 12
               echo 'After Sleep'
+              sh '''sleep 20
+echo "asdf"'''
             }
             
             echo 'FIN'
